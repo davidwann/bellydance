@@ -1,0 +1,39 @@
+
+
+Belly Dance Website
+
+
+Many versions may be created.
+
+
+
+Version 1
+-------------
+
+Java
+Struts 1.3
+EJB 2.1
+PostgreSQL
+
+
+Version 2
+-------------
+
+Not sure yet.
+
+Possibly:
+Struts 2
+EJB 3
+
+
+
+
+
+
+
+
+
+
+
+
+

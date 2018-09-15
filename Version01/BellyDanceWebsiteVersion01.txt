@@ -1,0 +1,84 @@
+
+
+
+Belly Dance Website Version 1
+
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Sunday 9/16/2018
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+
+
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+Saturday 9/15/2018
+= = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+mvn 
+
+mvn archetype:generate -DgroupId=bellydance
+                       -DartifactId=bdweb
+                       -DarchetypeArtifactId=maven-archetype-webapp
+                       -DinteractiveMode=false
+
+
+mvn archetype:generate -DgroupId=bellydance -DartifactId=bdweb -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+
+
+Choose which archetype to use:
+
+maven-archetype-j2ee-simple
+
+1) maven-archetype-j2ee-simple = An archetype to generate a simplifed 
+                                 sample J2EE application.
+
+2) maven-archetype-webapp = An archetype to generate a sample Maven 
+                            Webapp project.
+
+
+
+Start and Stop Tomcat
+- - - - - - - - - - -
+
+./bin/startup.sh
+
+./bin/shutdown.sh
+
+
+
+$CATALINA_HOME/bin/startup.sh
+
+
+$CATALINA_HOME/bin/shutdown.sh
+
+    or
+
+$CATALINA_HOME/bin/catalina.sh stop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
